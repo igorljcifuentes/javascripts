@@ -1,4 +1,5 @@
-getDate(){
+/* Simple function to obtaing the current date in UTC format */
+getCurrentDate(){
     let dateNow = new Date();
     let day = dateNow.getUTCDate();
     let monthIndex = dateNow.getUTCMonth();
